@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>My first Vue app</title>
-  <script src="https://unpkg.com/vue"></script>
-</head>
-<body>
-  <div id="app">
-    {{ message }}
-    这是啥: {{test}}
-  </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <script src="https://unpkg.com/vue"></script>
+  </head>
+  <body>
+    <div id="app">
+      {{ message }}<br />
+      what is that : {{test}}士大夫撒旦
+    </div>
 
-  <script>
-    var app = new Vue({
-      el: '#app',
-      data: {
-        message: 'Hello Vues!',
-        test:"fuck off"
-      }
-    })
-  </script>
-</body>
+    <script>
+      var app = new Vue({
+        el: "#app",
+        data: {
+          message: "Hello Vues!",
+          test: "fuck off"
+        }
+      });
+    </script>
+  </body>
 </html>
